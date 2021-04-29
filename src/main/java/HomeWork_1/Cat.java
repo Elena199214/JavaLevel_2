@@ -46,5 +46,12 @@ public class Cat implements RunableAndJumpable {
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", runLimit=" + runLimit +
+                ", jumpLimit=" + jumpLimit +
+                '}';
+    }
 }

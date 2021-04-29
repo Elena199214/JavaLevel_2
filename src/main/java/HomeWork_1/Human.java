@@ -34,6 +34,7 @@ public class Human implements RunableAndJumpable {
         }
         else {
             System.out.println( "Человек "+ this.name + " не сможет прыгнуть на " +wall.getDistance() + " метра");
+
         }
     }
 
@@ -57,7 +58,6 @@ public class Human implements RunableAndJumpable {
     }
 
 
-
     @Override
     public boolean canPassWall(Barrier wall) {
         if(wall.getDistance()<= this.jumpLimit){
@@ -65,18 +65,6 @@ public class Human implements RunableAndJumpable {
         }
         return false;
     }
-
-
-    //    @Override
-//    public void ran(int distance) {
-//        if (runLimit > 0 && distance <= runLimit) {
-//            System.out.println("Человек " +this.name + " пробежал " + distance + " метров");
-//        }
-//        else {
-//            System.out.println("Человек " +this.name + " не сможет пробежать столько!");
-//        }
-//
-//    }
 
 
     @Override

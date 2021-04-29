@@ -11,6 +11,7 @@ public interface RunableAndJumpable {
 
     }
     boolean canPassTreadmill(Barrier treadmill);
+
     default void jump(Barrier wall){
         if (canPassWall(wall)){
             System.out.println("прыгнул");

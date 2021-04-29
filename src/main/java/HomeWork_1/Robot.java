@@ -47,4 +47,12 @@ public class Robot implements  RunableAndJumpable {
         }
     }
 
+    @Override
+    public String toString() {
+        return "Robot{" +
+                "name='" + name + '\'' +
+                ", runLimit=" + runLimit +
+                ", jumpLimit=" + jumpLimit +
+                '}';
+    }
 }

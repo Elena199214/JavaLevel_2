@@ -16,20 +16,12 @@ public class App {
        Barrier wall = new Wall(3);
        Barrier tread = new Treadmill(1000);
 
-     if (human.canPassWall((Wall) wall)){
-         human.jump((Wall) wall);
-     }
-//          System.out.println("gjkexbkjcm");
-//        }
-
 
        Barrier [] barriers = new Barrier[4];
-       barriers[0] = new Wall(1);
+       barriers[0] = new Wall(2);
        barriers[1] = new Treadmill(500);
        barriers[2] = new Wall(3);
        barriers[3] = new Treadmill(1000);
-
-
 
        RunableAndJumpable[] runableAndJumpables = new RunableAndJumpable[6];
        runableAndJumpables[0] = new Human("Vasy",800, 2);
@@ -39,28 +31,33 @@ public class App {
        runableAndJumpables[4] = new Cat("Murzik",1200, 3);
        runableAndJumpables[5] = new Cat("Sharik",500, 4);
 
+
+
             for (int j = 0; j < runableAndJumpables.length; j++) {
+                System.out.println("Начинает проходить препятствия "+ runableAndJumpables[j].toString());
                 for (int i = 0; i < barriers.length; i++) {
                 if (barriers[i]instanceof Wall) {
                     runableAndJumpables[j].jump(barriers[i]);
-
+                        if (runableAndJumpables[j].canPassWall(barriers[i])==false){
+                            System.out.println("И выбывает из гонки ");
+                            break;
+                        }
 
                 } else{
                     runableAndJumpables[j].run(barriers[i]);
+                        if (runableAndJumpables[j].canPassTreadmill(barriers[i])==false){
+                            System.out.println("И выбывает из гонки ");
+                            break;
+                        }
+                }
 
-
+            if (i == barriers.length-1){
+                System.out.println("Победитель гонки "+ runableAndJumpables[j].toString());
             }
-
-        }
-
-
-
-        }
-
-
-        }
-
+                }
+            }
     }
+}
 
 
 
