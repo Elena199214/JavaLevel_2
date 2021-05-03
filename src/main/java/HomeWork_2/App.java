@@ -16,6 +16,7 @@ public class App {
 
 
     public static void main(String[] args) {
+
         String array[][] = new String[4][4];
         for (int i = 0; i < array.length; i++) {
             System.out.println("");
@@ -26,14 +27,22 @@ public class App {
 
         }
 
+        String[][] array2;
+        array2 = new String[][]{{"2", "a", "a"}, {"1", "2", "3", "4"},
+                {"1", "2", "3", "4"}, {"1", "2", "3", "4"}};
 
         App app = new App();
         try {
+            try {
+                app.IntSummArray(array);
+                app.IntSummArray(array2);
+            } catch (MyArraySizeException e) {
 
-            app.IntSummArray(array);
-        } catch (Exception e) {
-
-            e.printStackTrace();
+                e.printStackTrace(System.out);
+            }
+        } catch (MyArrayDataException e) {
+            e.printStackTrace(System.out);
+            System.out.println("В ячейке: " + e.i + "/" + e.j + " лежит символ или текст вместо числа");
         }
     }
 
@@ -43,60 +52,21 @@ public class App {
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                if (array.length != 4 && array[i].length != 4) {
-
-                    System.out.println("В массиве некорректно указан размер!!!");
+                if (array.length != 4 || array[i].length != 4) {
                     throw new MyArraySizeException("Размер массива не 4 на 4");
                 }
                 try {
                     sumInt += Integer.parseInt(array[i][j]);
                 } catch (NumberFormatException e) {
-                    throw new MyArrayDataException("Передали строку");
+                    throw new MyArrayDataException(i, j);
+
                 }
+
             }
         }
 
+
         System.out.println("\n" + "Сумма элементов массива = " + sumInt);
-                return sumInt;
-
-//            if (size != 4){
-//                System.out.println("В массиве некорректно указан размер!!!");
-//                throw new MyArraySizeException();
-//            }
-//
-//    throw new Exception("MyArraySizeException");
-
+        return sumInt;
     }
 }
-
-//    public int MetodArray (String[][] array) {
-//    int arrayInt = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            for (int j = 0; j < array[i].length; j++) {
-//                arrayInt+= Integer.parseInt(array[i][j]);
-//            }
-//        }
-//        System.out.println("\n"+ "Сумма элементов массива = " + arrayInt);
-//        return arrayInt;
-//        }
-//
-//    }
-
-//        try {
-//            // блок кода, в котором отслеживаются исключения
-//
-//            int size = 4;
-//            array = new String [size][size];
-//            if (size != 4);
-//
-//            //IllegalArgumentException
-//        } catch (MyArraySizeException) {
-//            M
-//            // обработчик исключения тип_исключения_1
-//        } catch (IllegalArgumentException) {
-//            // обработчик исключения тип_исключения_2
-//        } finally {
-//            // блок кода, который обязательно выполнится по завершении блока try
-//        }
-
-
