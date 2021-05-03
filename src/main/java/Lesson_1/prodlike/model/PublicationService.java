@@ -1,6 +1,4 @@
-package prodlike.model;
-
-import prodlike.model.Publication;
+package Lesson_1.prodlike.model;
 
 public interface PublicationService {
     /**

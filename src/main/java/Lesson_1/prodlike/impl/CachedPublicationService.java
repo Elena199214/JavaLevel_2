@@ -1,7 +1,7 @@
-package prodlike.impl;
+package Lesson_1.prodlike.impl;
 
-import prodlike.model.Publication;
-import prodlike.model.PublicationService;
+import Lesson_1.prodlike.model.Publication;
+import Lesson_1.prodlike.model.PublicationService;
 
 public class CachedPublicationService implements PublicationService {
 
