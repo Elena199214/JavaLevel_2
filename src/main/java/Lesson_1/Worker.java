@@ -14,3 +14,5 @@ public class Worker {
         return agedUser.getName();
     }
 }
+
+//Window -> Editor Tabs -> Tabs Placement -> Top.
