@@ -11,7 +11,7 @@ public class App {
 4.* У препятствий есть длина (для дорожки) или высота (для стены), а участников ограничения на бег и прыжки.
  Если участник не смог пройти одно из препятствий, то дальше по списку он препятствий не идет.
      */
-    public static void main(String[] args) {
+    public static <String> void main(String[] args) {
         Human human = new Human("Vasy",500,2);
        Barrier wall = new Wall(3);
        Barrier tread = new Treadmill(1000);
