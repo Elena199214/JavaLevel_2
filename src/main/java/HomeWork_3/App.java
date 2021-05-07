@@ -17,12 +17,40 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
 
-        HashMap<String, Integer> hm = new HashMap<>();
+        // создаю массив с набором повторяющихся слов
+        String[] array = {"красный", "желтый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый"};
 
 
-//
+        // найти и вывести список уникальных слов
+        Set<String> mySet = new HashSet<>(Arrays.asList(array));
+        System.out.println(mySet);
+
+       // counting replays
+
+        //считаю сколько раз встречаются повторы
+        HashMap<String, Integer> myHashMap = new HashMap<>();
+
+        Iterator<String> iter = mySet.iterator();
+        String str = iter.next();
+        for (String s : mySet) {
+            int count = 0;
+            for (int i = 0; i < array.length; i++) {
+                if (s.equals(array[i])) {
+                    count++;
+                }
+                myHashMap.put(s, count);
+            }
+        }
+        System.out.println(myHashMap);
+    }
+}
+
+
+
+
+
 //        List<String> array = new ArrayList<>(Arrays.asList("красный", "желтый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый"));
-//        Iterator<String> iter = array.iterator();
+//
 //        int count = 0;
 //
 //        for (int i = 0; i < array.size(); i++) {
@@ -32,12 +60,13 @@ public class App {
 //                    count++;
 //                    System.out.println(count + array.get(i));
 //                }
-//
-//
+
 //            }
 
 
-        }
-    }
-}
+
+
+    //public String [] uniqueArray(String[] array){
+
+
 
