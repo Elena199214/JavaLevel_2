@@ -42,31 +42,19 @@ public class App {
             }
         }
         System.out.println(myHashMap);
+
+        // 2 Телефонный справочник
+
+        PhoneBook.add("Катя", "555-55-55");
+        PhoneBook.add("Катя", "333-33-33");
+        PhoneBook.add("Миша", "777-77-77");
+        PhoneBook.add("Миша", "888-88-88");
+        PhoneBook.add("Миша", "555-55-55");
+        PhoneBook.add("Лиза", "111-11-11");
+
+        PhoneBook.get("Катя");
+        PhoneBook.get("Миша");
+        PhoneBook.get("Лиза");
+        PhoneBook.get("Женя");
     }
 }
-
-
-
-
-
-//        List<String> array = new ArrayList<>(Arrays.asList("красный", "желтый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый", "зеленый", "синий", "красный", "голубой", "желтый", "фиолетовый", "оранжевый"));
-//
-//        int count = 0;
-//
-//        for (int i = 0; i < array.size(); i++) {
-//            for (int j = 0; j < array.size(); j++) {
-//                if (array.get(i).equals(array.get(j))) {
-//                    array.remove(i);
-//                    count++;
-//                    System.out.println(count + array.get(i));
-//                }
-
-//            }
-
-
-
-
-    //public String [] uniqueArray(String[] array){
-
-
-
