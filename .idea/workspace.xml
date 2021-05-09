@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a19c11bb-d01e-4762-92ef-67b9542487fc" name="Default Changelist" comment="Итоговое." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Gudkova Lena &lt;gudkova_elena1992@mail.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Elena199214" />
+        <option name="repository" value="JavaLevel_2" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rW3CdD7LmtUdXFze2bO5zSjdV6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (3)">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_2.App" />
+      <module name="JavaLevel_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_3.App" />
+      <module name="JavaLevel_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_1.App" />
+      <module name="JavaLevel_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.App" />
+      <module name="JavaLevel_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_1.LessonApp" />
+      <module name="JavaLevel_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonsApp" />
+      <module name="JavaLevel_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (3)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.LessonsApp" />
+        <item itemvalue="Application.LessonApp" />
+        <item itemvalue="Application.App (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19c11bb-d01e-4762-92ef-67b9542487fc" name="Default Changelist" comment="" />
+      <created>1619077893870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619077893870</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1619093162594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619093162594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson_1">
+      <created>1619379230976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619379230976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson_1">
+      <created>1619429175507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619429175507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="не успела сделать, в работе">
+      <created>1619628625977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619628625977</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Теперь все работает, но написано плохо. Пыталась все придумать какой-нибудь метод, который на вход бы принимал barriers и определял внутри не через instanceof какое это препятствие, но так и не додумалась...">
+      <created>1619702335456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619702335456</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson_2">
+      <created>1619778845065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619778845065</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Не успела сделать. Доделаю позже.">
+      <created>1619974036523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619974036523</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Работает, но почему-то метод могу вызвать только у объекта просто IntSummArray(array) не работает.">
+      <created>1620049616670</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620049616670</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lesson_2">
+      <created>1620049912315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620049912315</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson_3">
+      <created>1620217119689</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620217119689</updated>
+    </task>
+    <task id="LOCAL-00011" summary="В работе, направлю еще коммит.">
+      <created>1620233089220</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620233089220</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Сделала первое задание, второе в работе.">
+      <created>1620419586063</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620419586063</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Итоговое.">
+      <created>1620538953598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620538953598</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="lesson_1" />
+    <MESSAGE value="не успела сделать, в работе" />
+    <MESSAGE value="Теперь все работает, но написано плохо. Пыталась все придумать какой-нибудь метод, который на вход бы принимал barriers и определял внутри не через instanceof какое это препятствие, но так и не додумалась..." />
+    <MESSAGE value="Не успела сделать. Доделаю позже." />
+    <MESSAGE value="Работает, но почему-то метод могу вызвать только у объекта просто IntSummArray(array) не работает." />
+    <MESSAGE value="Lesson_2" />
+    <MESSAGE value="Lesson_3" />
+    <MESSAGE value="В работе, направлю еще коммит." />
+    <MESSAGE value="Сделала первое задание, второе в работе." />
+    <MESSAGE value="Итоговое." />
+    <option name="LAST_COMMIT_MESSAGE" value="Итоговое." />
+  </component>
+</project>
