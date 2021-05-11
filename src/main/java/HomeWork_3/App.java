@@ -28,33 +28,33 @@ public class App {
        // counting replays
 
         //считаю сколько раз встречаются повторы
-        HashMap<String, Integer> myHashMap = new HashMap<>();
+        Map<String, Integer> myHashMap = new HashMap<>();
 
-        Iterator<String> iter = mySet.iterator();
-        String str = iter.next();
-        for (String s : mySet) {
-            int count = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (s.equals(array[i])) {
-                    count++;
-                }
-                myHashMap.put(s, count);
-            }
-        }
+        for (String s : array) {
+            myHashMap.put(s, myHashMap.getOrDefault(s, 0) + 1);
+//            if (myHashMap.containsKey(s)){
+//                myHashMap.put(s, myHashMap.get(s) + 1);
+//            } else { myHashMap.put(s, 1); }
+
+       }
+
+
         System.out.println(myHashMap);
 
         // 2 Телефонный справочник
 
-        PhoneBook.add("Катя", "555-55-55");
-        PhoneBook.add("Катя", "333-33-33");
-        PhoneBook.add("Миша", "777-77-77");
-        PhoneBook.add("Миша", "888-88-88");
-        PhoneBook.add("Миша", "555-55-55");
-        PhoneBook.add("Лиза", "111-11-11");
+        PhoneBook phoneBook = new PhoneBook();
 
-        PhoneBook.get("Катя");
-        PhoneBook.get("Миша");
-        PhoneBook.get("Лиза");
-        PhoneBook.get("Женя");
+        phoneBook.add("Катя", "555-55-55");
+        phoneBook.add("Катя", "333-33-33");
+        phoneBook.add("Миша", "777-77-77");
+        phoneBook.add("Миша", "888-88-88");
+        phoneBook.add("Миша", "555-55-55");
+        phoneBook.add("Лиза", "111-11-11");
+
+        phoneBook.get("Катя");
+        phoneBook.get("Миша");
+        phoneBook.get("Лиза");
+        phoneBook.get("Женя");
     }
 }
