@@ -9,4 +9,9 @@ public class MyArrayDataException extends Exception {
         this.j = j;
     }
 
+    @Override
+    public String getMessage() {
+        System.out.println("\n В ячейке: " + i + "/" + j + " лежит символ или текст вместо числа");
+        return null;
+    }
 }

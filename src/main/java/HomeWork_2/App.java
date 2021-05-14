@@ -19,35 +19,38 @@ public class App {
 
         String array[][] = new String[4][4];
         for (int i = 0; i < array.length; i++) {
-            System.out.println("");
+          //  System.out.println("");
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = "1";
-                System.out.print(array[i][j] + " ");
+               // System.out.print(array[i][j] + " ");
             }
 
         }
 
         String[][] array2;
-        array2 = new String[][]{{"2", "a", "a"}, {"1", "2", "3", "4"},
+        array2 = new String[][]{{"1","2", "a"}, {"1", "2", "3", "4"},
                 {"1", "2", "3", "4"}, {"1", "2", "3", "4"}};
 
         App app = new App();
-        try {
-            try {
-                app.IntSummArray(array);
-                app.IntSummArray(array2);
-            } catch (MyArraySizeException e) {
 
-                e.printStackTrace(System.out);
-            }
-        } catch (MyArrayDataException e) {
+//            try {
+//                app.intSummArray(array);
+//                app.intSummArray(array2);
+//            } catch (MyArraySizeException | MyArrayDataException e) {
+//
+//                e.printStackTrace(System.out);
+//            }
+
+        try {
+           // app.intSummArray(array);
+            app.intSummArray(array2);
+        } catch (MyArrayDataException | MyArraySizeException e) {
             e.printStackTrace(System.out);
-            System.out.println("В ячейке: " + e.i + "/" + e.j + " лежит символ или текст вместо числа");
         }
     }
 
 
-    public static int IntSummArray(String[][] array) throws MyArraySizeException, MyArrayDataException {
+    public static int intSummArray(String[][] array) throws MyArraySizeException, MyArrayDataException {
         int sumInt = 0;
 
         for (int i = 0; i < array.length; i++) {
